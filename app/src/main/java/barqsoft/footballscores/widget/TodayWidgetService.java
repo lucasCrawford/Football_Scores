@@ -41,11 +41,11 @@ public class TodayWidgetService extends RemoteViewsService {
 
     // these indices must match the projection
     static final int INDEX_GAME_ID = 0;
-    static final int INDEX_HOME_COL = 2;
-    static final int INDEX_AWAY_COL = 3;
-    static final int INDEX_TIME_COL = 4;
-    static final int INDEX_HOME_GOALS_COL = 5;
-    static final int INDEX_AWAY_GOALS_COL = 6;
+    static final int INDEX_HOME_COL = 1;
+    static final int INDEX_AWAY_COL = 2;
+    static final int INDEX_TIME_COL = 3;
+    static final int INDEX_HOME_GOALS_COL = 4;
+    static final int INDEX_AWAY_GOALS_COL = 5;
 
     @Override
     public RemoteViewsService.RemoteViewsFactory onGetViewFactory(Intent intent) {

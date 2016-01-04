@@ -33,6 +33,16 @@
         During the off season, fake data will be added to the app.
     </string>
 
+    <!-- Prevent translation of these strings. They are used by the API -->
+    <string name="seria_a" translateable="false">Seria A</string>
+    <string name="premier_league" translateable="false">Premier League</string>
+    <string name="champion_league" translateable="false">UEFA Champions League"</string>
+    <string name="primera_league" translateable="false">Primera Division</string>
+    <string name="bundesliga_league" translateable="false">Bundesliga</string>
+
+    <!-- Do not prevent translating the error message -->
+    <string name="error_league_message">Not known League Please report</string>
+
     <!-- Content descriptions for sight impairment fix -->
     <string name="share_btn_desc">Button for sharing game details</string>
     <string name="home_crest_desc">Crest for the home icon</string>
